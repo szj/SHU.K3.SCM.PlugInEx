@@ -80,6 +80,10 @@ namespace SHU.K3.SCM.PlugInEx.Report
             sTitleValue2 = CommonFuncReport.GetBaseDataName(customFilter, "RateScheme");//利率方案 fjfdszj
             reportTitles.AddTitle("FAffiliation_H", sTitleValue2);
             reportTitles.AddTitle("FDate_H", Convert.ToDateTime(customFilter["ByDate"]).ToShortDateString());
+            //销售部门
+            sTitleValue2 = CommonFuncReport.GetBaseDataName(customFilter, "FDEP");//利率方案 fjfdszj
+            reportTitles.AddTitle("FSaleDep_H", sTitleValue2);
+
             return reportTitles;
         }
         public override ReportHeader GetReportHeaders(IRptParams filter)
@@ -277,7 +281,7 @@ namespace SHU.K3.SCM.PlugInEx.Report
             DynamicObject dynamicObject = customFilter["FDEP"] as DynamicObject;
             if (dynamicObject != null && dynamicObject["Id"] != null)
             {
-                stringBuilder.AppendFormat(" and a.FSaleDeptName = {0}", dynamicObject["Name"]);
+                stringBuilder.AppendFormat(" and ISNULL(FSaleDeptID.FName, ' ') = '{0}' ", dynamicObject["Name"]);
             }
             
 
