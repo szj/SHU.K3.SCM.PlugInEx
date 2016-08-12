@@ -31,7 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Kingdee.BOS, Version=6.0.413.1, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Kingdee.BOS, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.dll</HintPath>
+    </Reference>
     <Reference Include="Kingdee.BOS.App, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.App.dll</HintPath>
@@ -81,6 +84,9 @@
     <Compile Include="AgingAnalysisService.cs" />
     <Compile Include="BillAuditWarnService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
