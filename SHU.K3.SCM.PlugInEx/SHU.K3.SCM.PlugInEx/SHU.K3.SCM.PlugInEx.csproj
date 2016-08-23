@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\</OutputPath>
+    <OutputPath>..\..\..\..\SHUCloud\K3Cloud\Bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -31,43 +31,49 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="Kingdee.BOS, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.BOS.App, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.App.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.App.dll</HintPath>
     </Reference>
-    <Reference Include="Kingdee.BOS.Contracts, Version=6.0.413.1, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Kingdee.BOS.Contracts, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.Contracts.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.Contracts.dll</HintPath>
     </Reference>
-    <Reference Include="Kingdee.BOS.Core">
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.Core.dll</HintPath>
+    <Reference Include="Kingdee.BOS.Core, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Kingdee.BOS.DataEntity">
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.BOS.DataEntity.dll</HintPath>
+    <Reference Include="Kingdee.BOS.DataEntity, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.BOS.DataEntity.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.FIN.AP.App.Report, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.AP.App.Report.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.FIN.AP.App.Report.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.FIN.AP.Report.PlugIn, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.AP.Report.PlugIn.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.FIN.AP.Report.PlugIn.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.FIN.App.Core, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.App.Core.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.FIN.App.Core.dll</HintPath>
     </Reference>
     <Reference Include="Kingdee.K3.FIN.AR.App.Report, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.AR.App.Report.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.FIN.AR.App.Report.dll</HintPath>
     </Reference>
-    <Reference Include="Kingdee.K3.FIN.Core, Version=6.0.411.1, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Kingdee.K3.FIN.Core, Version=6.1.39.9, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Kingdee\K3Cloud\WebSite\Bin\Kingdee.K3.FIN.Core.dll</HintPath>
+      <HintPath>..\..\..\..\SHUCloud\K3Cloud\Bin\Kingdee.K3.FIN.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -84,9 +90,6 @@
     <Compile Include="AgingAnalysisService.cs" />
     <Compile Include="BillAuditWarnService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

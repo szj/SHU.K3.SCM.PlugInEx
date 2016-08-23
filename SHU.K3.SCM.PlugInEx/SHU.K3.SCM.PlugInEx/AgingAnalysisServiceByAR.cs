@@ -942,7 +942,7 @@ namespace SHU.K3.SCM.PlugInEx.Report
             stringBuilder.AppendLine(balFieldList);
             stringBuilder.AppendLine("FMasterCurrencyName,FOrderBy)");
             stringBuilder.AppendLine("select a.FContactUnit,a.FCurrencyName,");
-            stringBuilder.AppendLine("'' as FSaleDeptName,'' as FSaleGroupName,'' as FSalerName,");
+            stringBuilder.AppendLine("'' as FSaleDeptName,'' as FSaleGroupName,'' as FSalerName,");//20160817部门信息
             stringBuilder.AppendLine("a.FSettleOrgName as FSettleOrgName,");
             stringBuilder.AppendLine(" a.FPayOrgName as FPayOrgName,");
             stringBuilder.AppendLine("'' as FSaleOrgName,");
