@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHU.K3.SCM.PlugInEx", "SHU.K3.SCM.PlugInEx\SHU.K3.SCM.PlugInEx.csproj", "{0373F7D5-7017-4676-83C1-95F45110D282}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHU.K3.SCM.Business.PlugInEx", "..\..\SHU.K3.SCM.Business.PlugInEx\SHU.K3.SCM.Business.PlugInEx\SHU.K3.SCM.Business.PlugInEx\SHU.K3.SCM.Business.PlugInEx.csproj", "{AF2D4909-0A96-4372-AEED-907714F58276}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0373F7D5-7017-4676-83C1-95F45110D282}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0373F7D5-7017-4676-83C1-95F45110D282}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0373F7D5-7017-4676-83C1-95F45110D282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2D4909-0A96-4372-AEED-907714F58276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2D4909-0A96-4372-AEED-907714F58276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2D4909-0A96-4372-AEED-907714F58276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2D4909-0A96-4372-AEED-907714F58276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
